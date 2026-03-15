@@ -23,16 +23,16 @@ int main() {
 
     InventorySystem<BookType> inventory;
 
-    BookType b1("The C++ Programming Language", "978-0-321-56384-2",
-                "Bjarne Stroustrup", "Addison-Wesley", "03/10/2026", 8,
-                52.50f, 79.99f);
-    BookType b2("Clean Code", "978-0-132-35088-4", "Robert C. Martin",
-                "Prentice Hall", "03/10/2026", 12, 24.00f, 39.99f);
-    BookType b3("Design Patterns", "978-0-201-63361-0",
-                "Gamma/Helm/Johnson/Vlissides", "Addison-Wesley",
-                "03/10/2026", 5, 33.25f, 54.99f);
-    BookType b4("Effective C++", "978-0-321-33487-9", "Scott Meyers",
-                "O'Reilly", "03/11/2026", 9, 26.00f, 44.95f);
+    BookType b1("Cool Awesome book", "978-4-391-56384-4",
+                "Cool Awesome Guy", "Penguin Haus", "03/30/2026", 8,
+                54.50f, 79.99f);
+    BookType b2("Coding for Kool Kidz", "948-0-132-35088-4", "Ryan R. Ryan",
+                "Super Cool Publisher", "04/04/2026", 40, 40.00f, 40.00f);
+    BookType b3("Linear Linearity", "978-0-201-63364-0",
+                "Super Cool Awesome Guy", "Publisher",
+                "03/06/2026", 5, 33.36f, 64.99f);
+    BookType b4("Effective Special Stuff", "978-0-321-33487-9", "Super DUper Cool Stuff",
+                "O'Ryan", "04/06/2026", 9, 40.00f, 44.95f);
 
     cout << "--- 1) Adding books to inventory ---\n";
     inventory.add(b1);
