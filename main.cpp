@@ -133,12 +133,12 @@ int main() {
     InventorySystem<string> customers;
 
     cout << "--- Adding customers ---\n";
-    customers.add("Alice Johnson");
-    cout << "Added: Alice Johnson\n";
-    customers.add("Charlie Brown");
-    cout << "Added: Charlie Brown\n";
-    customers.add("Bob Smith");
-    cout << "Added: Bob Smith\n\n";
+    customers.add("Guy With Cool Name");
+    cout << "Added: Guy With Cool Name\n";
+    customers.add("Another Guy With Cool Name");
+    cout << "Added: Another Guy With Cool Name\n";
+    customers.add("One Final Guy With Cool Name");
+    cout << "Added: One Final Guy With Cool Name\n\n";
 
     cout << "--- Sorted alphabetically ---\n";
     customers.sort();
@@ -146,8 +146,8 @@ int main() {
     cout << '\n';
 
     cout << "--- Search ---\n";
-    int customerIndex = customers.search("Bob Smith");
-    cout << "Searching for \"Bob Smith\"... ";
+    int customerIndex = customers.search("Guy With Cool Name");
+    cout << "Searching for \"Guy With Cool Name\"... ";
     if (customerIndex != -1) {
         cout << "Found at index " << customerIndex << '\n';
     } else {
